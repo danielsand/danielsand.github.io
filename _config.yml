@@ -13,22 +13,22 @@ owner:
   avatar:         dsa-post-avatar.jpg
   email:          daniel.sand@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        "chifiebre"
-  facebook:       
+  twitter:        "dsasmind"
+  facebook:
   github:         "danielsand"
-  stackexchange:  
+  stackexchange:
   linkedin:       "danielsand"
-  instagram:      
-  flickr:         
-  tumblr:         
+  instagram:
+  flickr:
+  tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-8092492-1
-google_verify:      
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -41,7 +41,7 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Germany/Berlin
 future:      true
-pygments:    true
+highlighter: rouge
 markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
@@ -52,14 +52,13 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+line_numbers:
+coderay_line_numbers_start: 1
+tab_width: 4
+bold_every: 10
+css: class
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules","vendor"]
