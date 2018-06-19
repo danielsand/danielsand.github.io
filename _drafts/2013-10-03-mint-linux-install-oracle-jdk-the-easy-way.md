@@ -1,13 +1,18 @@
 ---
 layout: post
-title: "Mint Linux - Oracle JDK the easy way"
-description: "Installing on Mint Linux the Oracle JDK in an easy way"
-category: articles
-tags: [linux, mint, JDK, PPA]
+title: Mint Linux - Oracle JDK the easy way
+description: Installing on Mint Linux the Oracle JDK in an easy way
+tags:
+- linux
+- mint
+- JDK
+- PPA
 image:
   feature: korea_fishmarket_2012.jpg
   credit: Daniel Sand
-comments: true  
+comments: true
+categories: articles
+date: 2013-10-03 00:00:00 +0000
 ---
 
 I just want to check out some DIA related tool which needs Java.
