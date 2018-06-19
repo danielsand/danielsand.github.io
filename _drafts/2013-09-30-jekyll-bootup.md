@@ -1,13 +1,17 @@
 ---
 layout: post
-title: "Jekyll Boot up"
-description: "Getting Jekyll on stage"
-category: articles
-tags: [jekyll, theme, ruby]
+title: Jekyll Boot up
+description: Getting Jekyll on stage
+tags:
+- jekyll
+- theme
+- ruby
 image:
   feature: berlin_brandeburg_gate_resize.jpg
   credit: Daniel Sand
-comments: true  
+comments: true
+categories: articles
+date: 2013-09-30 00:00:00 +0000
 ---
 
 Over the time I tried many different various blog software stacks:
